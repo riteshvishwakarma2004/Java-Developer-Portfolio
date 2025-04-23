@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        spring: '#2f855a', // Spring Boot-style green
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+    <!-- Navigation Bar -->
+    <header class="bg-spring text-white">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center">
+            <div class="text-2xl font-bold">MyPortfolio</div>
+            <nav class="flex flex-col sm:flex-row gap-4 mt-2 sm:mt-0">
+                <a href="index.html" class="hover:text-green-300">Home</a>
+                <a href="index.html#projects" class="hover:text-green-300">Projects</a>
+                <a href="index.html#skills" class="hover:text-green-300">Skills</a>
+                <a href="index.html#experience" class="hover:text-green-300">Experience</a>
+                <a href="contact.html" class="hover:text-green-300">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="max-w-4xl mx-auto px-4 py-12 bg-white text-center">
+        <h2 class="text-3xl font-bold mb-6 text-spring">Get in Touch</h2>
+
+        <p class="text-lg mb-4">📞 <strong>Phone:</strong> +91 8850620051</p>
+        <p class="text-lg mb-4"> <strong>Gmail:</strong> vishwakarmaritesh253@gmail.com</p>
+
+        <div class="flex justify-center gap-6 mt-6 text-spring">
+            <!-- LinkedIn -->
+            
+
+            <a href="https://www.linkedin.com/in/ritesh-vishwakarma-533735266/" target="_blank" class="hover:text-green-700 transition">
+                <img src="/images/linkedin.jpg" alt="LinkedIn" class="w-8 h-8">
+            </a>
+
+            <!-- GitHub -->
+            <a href="https://github.com/riteshvishwakarma2004" target="_blank" class="hover:text-green-700 transition">
+                <img src="/images/github.png" alt="GitHub" class="w-8 h-8">
+            </a>
+
+            
+        </div>
+    </section>
+</body>
+</html>
